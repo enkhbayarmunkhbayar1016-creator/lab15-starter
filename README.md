@@ -28,4 +28,8 @@ Coverage report: `target/site/jacoco/index.html`
 ## CI/CD
 
 GitHub Actions pipeline нь Java 17 болон 21 дээр matrix build ажиллуулдаг.
+
+- `build-test (17)` — Java 17 Temurin
+- `build-test (21)` — Java 21 Temurin
+
 JaCoCo coverage gate: ≥ 70%
